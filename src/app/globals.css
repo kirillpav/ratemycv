@@ -3,6 +3,19 @@
 @theme {
 	--font-sans: var(--font-geist-sans);
 	--font-mono: var(--font-geist-mono);
+
+	--color-blue-primary: #193cf0;
+	--color-mint-500: oklch(0.72 0.11 178);
+
+	@keyframes float {
+		0%,
+		100% {
+			transform: translateY(0);
+		}
+		50% {
+			transform: translateY(-10px);
+		}
+	}
 }
 
 :root {
